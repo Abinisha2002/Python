@@ -1,0 +1,11 @@
+show databases;
+create database client1;
+use client1;
+show tables;
+create table t1 (sno int not null auto_increment primary key,sname varchar(255));
+insert into t1(sname) values("sumi");
+insert into t1(sname) values("suba");
+select * from student;
+update t1 set sname="abis" where sno=2;
+select sname from t1 where sno=2;
+delete from t1 where sno=3;

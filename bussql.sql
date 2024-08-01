@@ -1,0 +1,10 @@
+show databases;
+create database bank34;
+use bank34;
+create table v1(UniqueID int, PassengerName varchar(20),Gender varchar(30),Phone varchar(40),Address varchar(40),Email varchar(40),Aadharcard int);
+insert into v1 values(123,"abi","female",89090578568,"mayiladuthurai",2345,564777);
+insert into v1 values(190,"abinisha","female",890905,"ktm",234,577);
+-- update v1 set Gender="male" where Passenger_Name="abi";
+-- delete from v1 where Passenger_Name="abinisha";
+select * from v1;
+insert into v1 (UniqueID, PassengerName,Gender,Phone,Address,Email,Aadharcard)values(12,"546","654",987,"654",654,321);
